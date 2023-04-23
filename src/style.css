@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: Poppins;
+    margin: 0;
+
+}
+
+nav{
+    /* display: flex; */
+    align-items: center;
+    height: 50px;
+    padding: 30px 20px 20px 20px;
+    background-color: red;
+}
+
+nav h1{
+    margin: unset;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #e2e2e2;
+    min-height: 100vh;
+}
+
+.blog--container{
+    display: flex;
+    height: 200px;
+    padding: 50px 30px;
+}
+
+.blog--image{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.blog--location{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    margin: unset;
+}
+
+.blog--title{
+    margin: unset;
+    font-size: 30px;
+}
+
+.blog--date{
+    font-size: 12px;
+    font-weight: 800;
+
+}
+
+.blog--description{
+    font-size: 12px;
+}
+
+.blog-details{
+    padding: 0 25px;
+}
